@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这个 就是作为一个模板的gridview -->
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/index_home_gridview_my"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:numColumns="4"
+    android:padding="5dp"
+    android:scrollbars="none" >
+
+</GridView>

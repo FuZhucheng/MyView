@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPager.MyViewPagerActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.demo.myview.ViewPager.MyViewPager
+            android:id="@+id/index_home_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/index_home_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/index_home_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:button="@drawable/index_home_dot_selector"
+                android:clickable="false"
+                android:gravity="center"
+                android:paddingLeft="0dp" />
+
+            <RadioButton
+                android:id="@+id/index_home_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/index_home_dot_selector"
+                android:clickable="false"
+                android:gravity="center" />
+
+            <RadioButton
+                android:id="@+id/index_home_rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:button="@drawable/index_home_dot_selector"
+                android:clickable="false"
+                android:gravity="center"
+                android:paddingLeft="0dp" />
+        </RadioGroup>
+
+    </FrameLayout>
+</LinearLayout>

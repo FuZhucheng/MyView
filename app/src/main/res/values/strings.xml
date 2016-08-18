@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">自定义们</string>
-    <string name="viewpager">viewpager自定义</string>
+    <string name="app_name">MyView</string>
+    <string name="viewpager">仿美团上方栏的效果</string>
+    <string name="viewpager_descirbe">radiobutton方案</string>
 </resources>

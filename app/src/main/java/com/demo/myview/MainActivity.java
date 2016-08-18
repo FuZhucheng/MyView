@@ -52,7 +52,7 @@ public class MainActivity extends ListActivity {
     }
 
     private static final DemoDetails[] demos = {
-            new DemoDetails(R.string.viewpager, R.string.viewpager,             //自定义viewpager，美团上方轮播
+            new DemoDetails(R.string.viewpager, R.string.viewpager_descirbe,             //自定义viewpager，美团上方轮播
                     MyViewPagerActivity.class),
     };
 

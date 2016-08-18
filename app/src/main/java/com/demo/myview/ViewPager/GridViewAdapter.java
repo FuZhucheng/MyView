@@ -65,6 +65,7 @@ public class GridViewAdapter extends BaseAdapter {
         else{
             viewHolder=(ViewHolder) convertView.getTag();
         }
+
         viewHolder.iv_navsort.setImageResource(MyGridViewData.navSortImages[position+8*page]);
         viewHolder.tv_navsort.setText(MyGridViewData.navSort[position+8*page]);
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomProgressBar">
+        <attr name="circleWidth" format="dimension" />
+        <attr name="ringColor" format="color" />
+        <attr name="centercircleColor" format="color" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AutomaticCircleProgress">
+        <attr name="automaticCircleWidth" format="dimension" />
+        <attr name="automaticBottomRingColor" format="color" />
+        <attr name="automaticDrawRingColor" format="color" />
+        <attr name="automaticCentercircleColor" format="color" />
+        <attr name="automaticTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleHead">
+        <attr name="circleBorderHeadWidth" format="dimension" />
+        <attr name="ringHeadColor" format="color" />
+        <attr name="backgroundHeadColor" format="color" />
+    </declare-styleable>
+
+
+
+
+
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+    <attr name="childSize" format="dimension|reference" />
+
+    <declare-styleable name="ArcLayout">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="RayLayout">
+        <attr name="leftHolderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

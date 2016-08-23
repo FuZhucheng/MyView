@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewPager.MyViewPagerActivity">
+    tools:context=".meituanViewPager.MyViewPagerActivity">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
-        <com.demo.myview.ViewPager.MyViewPager
+        <android.support.v4.view.ViewPager
             android:id="@+id/index_home_viewpager"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="166dp"
             android:background="@color/white" />
 
         <RadioGroup
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/index_home_rb1"
@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
-                android:button="@drawable/index_home_dot_selector"
+                android:button="@drawable/first_viewpager_meituan_selector"
                 android:clickable="false"
                 android:gravity="center"
                 android:paddingLeft="0dp" />
@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:button="@drawable/index_home_dot_selector"
+                android:button="@drawable/first_viewpager_meituan_selector"
                 android:clickable="false"
                 android:gravity="center" />
 
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:button="@drawable/index_home_dot_selector"
+                android:button="@drawable/first_viewpager_meituan_selector"
                 android:clickable="false"
                 android:gravity="center"
                 android:paddingLeft="0dp" />

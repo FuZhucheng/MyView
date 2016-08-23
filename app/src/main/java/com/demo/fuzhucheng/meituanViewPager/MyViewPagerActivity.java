@@ -1,4 +1,4 @@
-package com.demo.myview.ViewPager;
+package com.demo.fuzhucheng.meituanViewPager;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.GridView;
 import android.widget.RadioButton;
 
-import com.demo.myview.R;
+import com.demo.fuzhucheng.R;
+import com.demo.fuzhucheng.meituanViewPager.MyViewPagerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +26,7 @@ public class MyViewPagerActivity extends Activity {
 
 
     @BindView(R.id.index_home_viewpager)
-     MyViewPager viewPager;
+    ViewPager viewPager;
 
     @BindView(R.id.index_home_rb1)//radiogroup 1组以及3个radiobutton
      RadioButton rbFirst;
@@ -47,11 +48,11 @@ public class MyViewPagerActivity extends Activity {
     //动态添加gridview
     private void initGridView() {
         gridViewFirst = (GridView) LayoutInflater.from(MyViewPagerActivity.this).inflate(R.layout.activity_viewpager_gridview, null);
-        gridViewFirst.setAdapter(new GridViewAdapter(MyViewPagerActivity.this, 0));
+        gridViewFirst.setAdapter(new com.demo.fuzhucheng.meituanViewPager.GridViewAdapter(MyViewPagerActivity.this, 0));
         gridViewSecond = (GridView) LayoutInflater.from(MyViewPagerActivity.this).inflate(R.layout.activity_viewpager_gridview, null);
-        gridViewSecond.setAdapter(new GridViewAdapter(MyViewPagerActivity.this, 1));
+        gridViewSecond.setAdapter(new com.demo.fuzhucheng.meituanViewPager.GridViewAdapter(MyViewPagerActivity.this, 1));
         gridViewThird = (GridView) LayoutInflater.from(MyViewPagerActivity.this).inflate(R.layout.activity_viewpager_gridview, null);
-        gridViewThird.setAdapter(new GridViewAdapter(MyViewPagerActivity.this, 2));
+        gridViewThird.setAdapter(new com.demo.fuzhucheng.meituanViewPager.GridViewAdapter(MyViewPagerActivity.this, 2));
     }
 
     private void initViewPager() {   //初始化viewpager

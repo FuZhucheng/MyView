@@ -1,4 +1,4 @@
-package com.demo.myview.ViewPager;
+package com.demo.fuzhucheng.meituanViewPager;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.demo.myview.R;
+import com.demo.fuzhucheng.R;
+import com.demo.fuzhucheng.meituanViewPager.MyGridViewData;
 
 import butterknife.ButterKnife;
 
@@ -69,6 +70,7 @@ public class GridViewAdapter extends BaseAdapter {
         viewHolder.iv_navsort.setImageResource(MyGridViewData.navSortImages[position+8*page]);
         viewHolder.tv_navsort.setText(MyGridViewData.navSort[position+8*page]);
 
+        //在这里处理gridview每个icon的逻辑，跳转activity
         if(position==8-1 && page==2){
             viewHolder.iv_navsort.setOnClickListener(new View.OnClickListener() {
 

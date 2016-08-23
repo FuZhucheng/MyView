@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.myview">
+    package="com.demo.fuzhucheng">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/mylogo"
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity
@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        +
-        <activity android:name=".ViewPager.MyViewPagerActivity"></activity>
+        <activity android:name=".meituanViewPager.MyViewPagerActivity" />
+        <activity android:name=".meituanViewPager2.MyViewPagerActivity2" />
+        <activity android:name=".colourfulFontOrNeonTextView.ColourfulFontOrNeonAcitivity" />
+        <activity android:name=".progressCircle.ProgressCircleActivity" />
+        <activity android:name=".someShapesImageview.ImageViewActivity" />
+        <activity android:name=".arcmenu.ArcMenuActivity"></activity>
     </application>
 
 </manifest>

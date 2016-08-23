@@ -1,4 +1,4 @@
-package com.demo.myview;
+package com.demo.fuzhucheng;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.fuzhucheng.progressCircle.ProgressCircleActivity">
+
+    <com.demo.fuzhucheng.progressCircle.ManualCircle
+        android:id="@+id/myview"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        app:centercircleColor="#FFFF00"
+        app:circleWidth="11dp"
+        app:ringColor="#008000"
+        app:textColor="#000000"></com.demo.fuzhucheng.progressCircle.ManualCircle>
+
+    <com.demo.fuzhucheng.progressCircle.AutomaticCircle
+        android:id="@+id/automaticCircle"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:automaticBottomRingColor="#000000"
+        app:automaticCentercircleColor="#aaa"
+        app:automaticCircleWidth="20dp"
+        app:automaticDrawRingColor="#FFFFFF"
+        app:automaticTextColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.demo.myview.ViewPager;
+package com.demo.fuzhucheng.meituanViewPager;
 
 import android.support.v4.view.PagerAdapter;
 import android.util.Log;
@@ -22,20 +22,24 @@ public class MyViewPagerAdapter extends PagerAdapter {
         this.list = list;
         //this.titles=titles;
     }
-
+    /**
+     * 获取当前要显示对象的数量
+     */
     @Override
     public int getCount() {
         // TODO Auto-generated method stub
         return list.size();
     }
 
-    //  判断  当前的view 是否是  Object 对象
+    //  判断  当前的view 是否是  Object 对象,判断是否用对象生成界面
     @Override
     public boolean isViewFromObject(View arg0, Object arg1) {
         // TODO Auto-generated method stub
         return arg0 == arg1;
     }
-
+    /**
+     * 当前要显示的对象（图片）
+     */
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         // TODO Auto-generated method stub
@@ -44,7 +48,9 @@ public class MyViewPagerAdapter extends PagerAdapter {
 
         return list.get(position);
     }
-
+    /**
+     * 从ViewGroup中移除当前对象（图片）
+     */
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         // TODO Auto-generated method stub

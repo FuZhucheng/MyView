@@ -1,6 +1,6 @@
-package com.demo.myview.ViewPager;
+package com.demo.fuzhucheng.meituanViewPager;
 
-import com.demo.myview.R;
+import com.demo.fuzhucheng.R;
 
 /**
  * Created by asus on 2016/8/18.

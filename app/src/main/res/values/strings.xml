@@ -2,4 +2,13 @@
     <string name="app_name">MyView</string>
     <string name="viewpager">仿美团上方栏的效果</string>
     <string name="viewpager_descirbe">radiobutton方案</string>
+    <string name="viewpager_descirbe2">动态imageview方案，反编译美团得到的最优动态方案</string>
+    <string name="fontOrNenoTextview">自定义彩色字体与霓虹灯字体以及Text的多向字体效果（自定义之扩展式）</string>
+    <string name="fontOrNenoTextviewDescribe">自定义Textview结合LinearGradient和Matrix与TextView的多向字体效果</string>
+    <string name="progressCircle">手动选择程度圆与进度圆（完全自定义）</string>
+    <string name="progressCircleDescribe">里面细讲画圆方案，注意画圆的数学公式推导</string>
+    <string name="circleHead">圆形头像三大方案shape、渲染三层方案，最好的图像处理器方案</string>
+    <string name="circleHeadDescribe">里面含有圆形头像的三大方案，其中，最终方案已经彻底封装</string>
+    <string name="arcmenu">卫星导航菜单</string>
+    <string name="arcmenuDescribe">三大卫星导航效果</string>
 </resources>

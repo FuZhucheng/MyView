@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".colourfulFontOrNeonTextView.ColourfulFontOrNeonAcitivity">
+
+    <com.demo.fuzhucheng.colourfulFontOrNeonTextView.colourfulFontTextview
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="彩色字体!彩色字体!彩色字体!"
+        android:textSize="28sp" />
+
+    <com.demo.fuzhucheng.colourfulFontOrNeonTextView.NenoTextview
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="霓虹灯字体！霓虹灯字体！霓虹灯字体！"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="baiduoryouku正常粗体斜体粗斜体上标下标前景色背景色图片"
+        android:textSize="25sp"/>
+
+</LinearLayout>

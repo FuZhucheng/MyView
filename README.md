@@ -19,6 +19,7 @@
 #### （9）recyclerview，鸿洋大大的完美解释。[鸿洋大大的recyclerview](http://blog.csdn.net/lmj623565791/article/details/45059587)
 ##### 有能力的朋友，最好也把鸿洋大大的recyclerview封装也看了，我在项目中用了，阅读大大的思路真的真的很棒！！[鸿洋大大的recyclerview封装](http://blog.csdn.net/lmj623565791/article/details/51118836/)
 #### （10）接下来就是圆形菜单的，我基于鸿洋大大的一些思路根据实际需求做了一个限制级的圆形菜单。以前也解析过啦。[ Android-自定义view之圆形与“半圆形”菜单](http://blog.csdn.net/jack__frost/article/details/52965905)
+#### （**附加的工具类**）另外在这个库中，可以看到我用的工具类（utils包内），里面均有详细介绍，（DensityUtil类）获取设备的高度和宽度，以及提供dp和px单位之间的转换；（ReadBitmap类）加载本地图片使用的工具类，防止oom；（SavePhoto类）保存bitmap到本地文件,用途是可以配合鲁班压缩框架，进行对本地图片压缩然后上传；（TypefaceUtils类）字体加载工具类，使用枚举实现单例模式。
 ***
 ***
 ***

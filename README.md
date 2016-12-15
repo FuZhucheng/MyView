@@ -3,9 +3,8 @@
 
 下面就罗列下这个库的东西咯：
 
-![这里写图片描述](http://img.blog.csdn.net/20161215112953782?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmFja19fRnJvc3Q=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-![这里写图片描述](http://img.blog.csdn.net/20161215110332325?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmFja19fRnJvc3Q=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
+这里还是不放图片了，github访问太难显示了。我给我的博客吧，快很多。[Android-自定义View学习分享](http://blog.csdn.net/jack__frost/article/details/53669049)
+***
 
 #### （1）上面两个仿美团上方栏的效果：
 ##### **第一个方案的** 是xml中用radiobutton强制写死了大概多少个滑动页面的引导小圆点，这种方案可见复用性不高。
@@ -20,6 +19,9 @@
 #### （9）recyclerview，鸿洋大大的完美解释。[鸿洋大大的recyclerview](http://blog.csdn.net/lmj623565791/article/details/45059587)
 ##### 有能力的朋友，最好也把鸿洋大大的recyclerview封装也看了，我在项目中用了，阅读大大的思路真的真的很棒！！[鸿洋大大的recyclerview封装](http://blog.csdn.net/lmj623565791/article/details/51118836/)
 #### （10）接下来就是圆形菜单的，我基于鸿洋大大的一些思路根据实际需求做了一个限制级的圆形菜单。以前也解析过啦。[ Android-自定义view之圆形与“半圆形”菜单](http://blog.csdn.net/jack__frost/article/details/52965905)
+***
+***
+***
 
 ### 喜欢的给下star或者fork咯，如果有朋友告诉我要写些特别点的控件，我会尽力写下，然后继续放到这个库中，让大家一起学习。
 ### 我的自定义学习库，github地址：[辅助的自定义view系列](https://github.com/FuZhucheng/MyView)

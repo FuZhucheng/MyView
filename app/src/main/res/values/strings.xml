@@ -2,7 +2,7 @@
     <string name="app_name">MyView</string>
     <string name="viewpager">仿美团上方栏的效果</string>
     <string name="viewpager_descirbe">radiobutton方案</string>
-    <string name="viewpager_descirbe2">动态imageview方案，反编译美团得到的最优动态方案</string>
+    <string name="viewpager_descirbe2">动态imageview方案，反编译美团得到的最优动态方案，并且附带小圆点的动画效果</string>
     <string name="fontOrNenoTextview">自定义彩色字体与霓虹灯字体以及Text的多向字体效果（自定义之扩展式）</string>
     <string name="fontOrNenoTextviewDescribe">自定义Textview结合LinearGradient和Matrix与TextView的多向字体效果</string>
     <string name="progressCircle">手动选择程度圆与进度圆（完全自定义）</string>
@@ -11,4 +11,18 @@
     <string name="circleHeadDescribe">里面含有圆形头像的三大方案，其中，最终方案已经彻底封装</string>
     <string name="arcmenu">卫星导航菜单</string>
     <string name="arcmenuDescribe">三大卫星导航效果</string>
+    <string name="flowLayout">流式布局，重写viewgroup（源自鸿洋大大外加自己的理解）</string>
+    <string name="flowLayoutDescribe">重写viewgroup，详解viewgroup的重写</string>
+    <string name="rippleEffect">水波纹效果</string>
+    <string name="rippleEffectDescribe">水波纹效果，已经封装好</string>
+    <string name="pictureCarousel">图片轮播效果</string>
+    <string name="pictureCarouselDescribe">仿淘宝图片轮播效果，下面有圆点以及轮播动画</string>
+    <string name="recyclerview">recyclerview初步学习（源自鸿洋附加自己的理解）</string>
+    <string name="recyclerviewDescribe">recycleview的多向基本运用</string>
+    <string name="circlemenu">圆形菜单</string>
+    <string name="circlemenudescribe">鸿洋的圆形菜单</string>
+    <string name="mycirclemenu">我的圆形菜单</string>
+    <string name="mycirclemenudescribe">我的圆形菜单</string>
+
+
 </resources>

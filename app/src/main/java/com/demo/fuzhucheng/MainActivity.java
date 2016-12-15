@@ -10,12 +10,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.demo.fuzhucheng.R;
 import com.demo.fuzhucheng.arcmenu.ArcMenuActivity;
+import com.demo.fuzhucheng.circlemenu.Main2Activity;
 import com.demo.fuzhucheng.colourfulFontOrNeonTextView.ColourfulFontOrNeonAcitivity;
+import com.demo.fuzhucheng.flowlayout.FlowlayoutActivity;
 import com.demo.fuzhucheng.meituanViewPager.MyViewPagerActivity;
 import com.demo.fuzhucheng.meituanViewPager2.MyViewPagerActivity2;
+import com.demo.fuzhucheng.mycirclemenu.MyCircleMenuActivity;
+import com.demo.fuzhucheng.pictureCarousel.PictureCarouselActivity;
 import com.demo.fuzhucheng.progressCircle.ProgressCircleActivity;
+import com.demo.fuzhucheng.recyclerview.RecyclerViewActivity;
+import com.demo.fuzhucheng.rippleeffcet.RippleEffectActivity;
 import com.demo.fuzhucheng.someShapesImageview.ImageViewActivity;
 
 public class MainActivity extends ListActivity {
@@ -69,13 +74,25 @@ public class MainActivity extends ListActivity {
                     ImageViewActivity.class),
             new DemoDetails(R.string.arcmenu, R.string.arcmenuDescribe,             //卫星导航菜单
                     ArcMenuActivity.class),
+            new DemoDetails(R.string.flowLayout, R.string.flowLayoutDescribe,             //瀑布流布局
+                    FlowlayoutActivity.class),
+            new DemoDetails(R.string.rippleEffect, R.string.rippleEffectDescribe,             //水波纹
+                    RippleEffectActivity.class),
+            new DemoDetails(R.string.pictureCarousel, R.string.pictureCarouselDescribe,             //图片轮播
+                    PictureCarouselActivity.class),
+            new DemoDetails(R.string.recyclerview, R.string.recyclerviewDescribe,             //recylerview
+                    RecyclerViewActivity.class),
+            new DemoDetails(R.string.circlemenu, R.string.circlemenudescribe,             //鸿洋的圆形菜单
+                    Main2Activity.class),
+            new DemoDetails(R.string.mycirclemenu, R.string.mycirclemenudescribe,             //我自己的圆形菜单
+                    MyCircleMenuActivity.class),
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("自定义ViewDemo");
+        setTitle("自定义View的学习系列");
         ListAdapter adapter = new CustomArrayAdapter(
                 this.getApplicationContext(), demos);
         setListAdapter(adapter);

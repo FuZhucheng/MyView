@@ -34,15 +34,7 @@ import android.view.animation.RotateAnimation;
 import com.demo.fuzhucheng.R;
 import com.demo.fuzhucheng.arcmenu.RotateAndTranslateAnimation;
 
-/**
- * A Layout that arranges its children around its center. The arc can be set by
- * calling {@link #setArc(float, float) setArc()}. You can override the method
- * {@link #onMeasure(int, int) onMeasure()}, otherwise it is always
- * WRAP_CONTENT.
- * 
- * @author Capricorn
- * 
- */
+
 public class ArcLayout extends ViewGroup {
     /**
      * children will be set the same size.

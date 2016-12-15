@@ -124,8 +124,9 @@ public class CircleImageview extends ImageView {
          */
         mWidth = getWidth();
         mHeight = getHeight();
+        int mCircleSize = Math.min(mHeight, mWidth);
         //圆的半径短的二分之一作为半径
-        mRadius = mWidth / 2 - mCircleBorderWidth;
+        mRadius = mCircleSize / 2 - mCircleBorderWidth;
     }
 
     /**
@@ -141,14 +142,14 @@ public class CircleImageview extends ImageView {
         *而且它还提供了一整套对这个内存区域进行操作的方法，所有的这些操作都是画图API。
         *也就是说在这种方式下我们已经能一笔一划或者使用Graphic来画我们所需要的东西了，要画什么要显示什么都由我们自己控制。
      */
-
     @Override
     protected void onDraw(Canvas canvas) {
         //这里注释掉onDraw是为了不绘制原来的画布
         //        super.onDraw(canvas);
         if (getDrawable() != null) {
             setBitmapShader();
-            canvas.drawRect(0, 0, mWidth, mHeight, mPaintBackgroud);//直接构造
+            //直接构造,画背景的，为什么画背景？因为画布是方的，市面上所有圆形头像都是没有直接处理边角的，而是用Framelayout来进去覆盖，所以这里定义个背景色告诉大家，当然也封装好给大家使用
+            canvas.drawRect(0, 0, mWidth, mHeight, mPaintBackgroud);
             canvas.drawCircle(mWidth / 2, mHeight / 2, mRadius, mPaintCircle);
             //画边框
             canvas.drawCircle(mWidth / 2, mHeight / 2, mRadius + mCircleBorderWidth / 2, mPaintBorder);

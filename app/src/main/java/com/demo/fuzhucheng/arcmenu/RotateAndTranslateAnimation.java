@@ -19,11 +19,7 @@ package com.demo.fuzhucheng.arcmenu;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
-/**
- * An animation that controls the position of an object, and make the object
- * rotate on its center at the same time.
- * 
- */
+
 public class RotateAndTranslateAnimation extends Animation {
     private int mFromXType = ABSOLUTE;
 

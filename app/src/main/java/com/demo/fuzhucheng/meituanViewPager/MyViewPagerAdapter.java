@@ -15,12 +15,10 @@ public class MyViewPagerAdapter extends PagerAdapter {
 
     List<View> list;
 
-    //List<String> titles;
     public MyViewPagerAdapter(List<View> list) {
         // TODO Auto-generated constructor stub
 
         this.list = list;
-        //this.titles=titles;
     }
     /**
      * 获取当前要显示对象的数量
@@ -44,7 +42,7 @@ public class MyViewPagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         // TODO Auto-generated method stub
         container.addView(list.get(position));
-        Log.e("jhd", "添加--" + position);
+        Log.e("fuzhu", "添加--" + position);
 
         return list.get(position);
     }
@@ -61,7 +59,6 @@ public class MyViewPagerAdapter extends PagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         // TODO Auto-generated method stub
-        //return titles.get(position);
         return "1";  //暂时没用的
     }
 }

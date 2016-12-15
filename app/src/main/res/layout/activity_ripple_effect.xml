@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.demo.fuzhucheng.rippleeffcet.RippleEffectActivity">
+
+    <com.demo.fuzhucheng.rippleeffcet.RippleEffect
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text="告诉你点我就有效果"
+        android:textSize="23sp"
+        app:RippleEffectSpreadSpeed="5"
+        app:RippleEffectWaterRippleColor="@color/hyaline"
+        app:RippleEffectBackgroundColor="@color/hyaline"/>
+</LinearLayout>

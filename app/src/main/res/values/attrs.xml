@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- 手动进度圆的属性-->
     <declare-styleable name="CustomProgressBar">
         <attr name="circleWidth" format="dimension" />
         <attr name="ringColor" format="color" />
@@ -7,7 +9,7 @@
         <attr name="textColor" format="color" />
     </declare-styleable>
 
-
+    <!-- 自动进度圆的属性-->
     <declare-styleable name="AutomaticCircleProgress">
         <attr name="automaticCircleWidth" format="dimension" />
         <attr name="automaticBottomRingColor" format="color" />
@@ -23,26 +25,35 @@
     </declare-styleable>
 
 
-
-
-
+    <!-- 卫星菜单-->
     <attr name="fromDegrees" format="float|reference" />
     <attr name="toDegrees" format="float|reference" />
     <attr name="childSize" format="dimension|reference" />
-
     <declare-styleable name="ArcLayout">
-        <attr name="fromDegrees"/>
-        <attr name="toDegrees"/>
-        <attr name="childSize"/>
+        <attr name="fromDegrees" />
+        <attr name="toDegrees" />
+        <attr name="childSize" />
     </declare-styleable>
-
     <declare-styleable name="ArcMenu">
-        <attr name="fromDegrees"/>
-        <attr name="toDegrees"/>
-        <attr name="childSize"/>
+        <attr name="fromDegrees" />
+        <attr name="toDegrees" />
+        <attr name="childSize" />
     </declare-styleable>
-
     <declare-styleable name="RayLayout">
         <attr name="leftHolderWidth" format="dimension" />
     </declare-styleable>
+
+
+    <!-- 水波纹效果-->
+    <declare-styleable name="RippleEffectProperty">
+        <attr name="RippleEffectSpreadSpeed" format="integer" />
+        <attr name="RippleEffectBackgroundColor" format="color" />
+        <attr name="RippleEffectWaterRippleColor" format="color" />
+    </declare-styleable>
+
+    <!-- recyclerview分隔线效果-->
+    <declare-styleable name="ListDivider2">
+
+    </declare-styleable>
+
 </resources>

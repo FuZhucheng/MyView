@@ -1,7 +1,7 @@
 package com.demo.fuzhucheng;
 
 /**
- * Created by asus on 2016/7/27.
+ * Created by 符柱成on 2016/7/27.
  */
 import android.content.Context;
 import android.view.LayoutInflater;
